@@ -143,8 +143,8 @@ for lat, lng, borough, neighborhood in zip(toronto_df_new['Latitude'], toronto_d
 map_toronto
 
 #Foursquare API
-CLIENT_ID = 'your Foursquare ID'
-CLIENT_SECRET = 'your Foursquare Secret'
+CLIENT_ID = 'MJXRQJOEMQZ1XVM1ZVYKA4QNOAS15OLFNIZTDVAHBGB5WKXR'
+CLIENT_SECRET = 'ONMM1XTFLWVXD1YDZ05XF4X2C0GFFPF02N310GM15ISWL234'
 VERSION = '20180605'
 print('Your credentails:')
 print('CLIENT_ID: ' + CLIENT_ID)
