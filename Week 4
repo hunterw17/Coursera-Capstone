@@ -138,8 +138,8 @@ def getNearbyVenues(names, latitudes, longitudes, radius=5000, categoryIds=''):
     return(nearby_venues)
 LIMIT = 500
 radius = 5000
-CLIENT_ID = 'ZMHWBS0SR12Z3YDYVHJVTZPRK3U1ZP3I2TYQAJ5CU3JUHMB5'
-CLIENT_SECRET = 'H3TT0XT3P5TIAFCV1Y2UUVLF42N44DICNKLUELK34H2TKLFR'
+CLIENT_ID = 'MJXRQJOEMQZ1XVM1ZVYKA4QNOAS15OLFNIZTDVAHBGB5WKXR'
+CLIENT_SECRET = 'ONMM1XTFLWVXD1YDZ05XF4X2C0GFFPF02N310GM15ISWL234'
 VERSION = '20181020'
 neighborhoods = neighborhoods[neighborhoods['Borough'] == 'Manhattan'].reset_index(drop=True)
 newyork_venues_sushi = getNearbyVenues(names=neighborhoods['Neighborhood'], latitudes=neighborhoods['Latitude'], longitudes=neighborhoods['Longitude'], radius=1000, categoryIds='4bf58dd8d48988d1d2941735')
